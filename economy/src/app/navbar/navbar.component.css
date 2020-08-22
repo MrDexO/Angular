@@ -1,0 +1,62 @@
+
+.navbar{
+    display: block;
+    position: fixed;
+    width: 100%;
+    z-index: 10;
+    background-color: #1b262c;
+    color: white;
+
+    height: 90px;
+
+    font-family: "Courier New", Courier, monospace;
+
+    color: #d6a340;
+    font-weight: 800;
+
+    box-shadow: 0px 0.2px 5px orange;
+}
+.navbar h1{
+    display: inline-block;
+
+    margin: auto;
+    font-size: 80px;
+
+
+    
+}
+
+.navbar button{
+    display: inline-block;
+    position: relative;
+
+    border: none;
+    height: 100%;
+    width: 230px;
+    padding: 0px 10px;
+
+    float: right;
+
+    background-color: #1b262c;
+    color: #d6a340;
+
+    font-weight: 300;
+    font-size: 22px;
+
+    transition: all 500ms;
+
+}
+
+.navbar button:hover{
+    background-color: #d6a340;
+    color: #1b262c;
+    
+
+    width: 300px;
+}
+
+@media screen and (max-width: 1200px){
+    .navbar button{
+        display: none;
+    }
+}
